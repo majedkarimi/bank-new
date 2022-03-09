@@ -1,0 +1,14 @@
+{
+  "name": "bank-plus",
+  "version": "1.0.0",
+  "description": "bank new version",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass assets/scss/style.scss assets/css/style.css -w"
+  },
+  "author": "majed karimi",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
