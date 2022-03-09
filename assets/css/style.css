@@ -3,6 +3,47 @@
   margin: 0;
   box-sizing: border-box; }
 
+body {
+  background-color: #0d1117;
+  color: #c9d1d9; }
+
 /*----------------------------------------------- 
   # Login page
 -------------------------------------------------*/
+.app {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center; }
+  .app .form {
+    padding: 2rem;
+    background: #161b22;
+    border-radius: 10px;
+    width: 25%;
+    border: 1px solid #21262d; }
+    .app .form h3 {
+      text-align: center; }
+    .app .form .form-controls {
+      margin: 2rem 0; }
+      .app .form .form-controls .form-control-item {
+        margin: 1rem 0; }
+        .app .form .form-controls .form-control-item label {
+          display: block;
+          margin-bottom: 1rem; }
+        .app .form .form-controls .form-control-item input {
+          padding: 11px 28px;
+          width: 100%;
+          border-radius: 10px;
+          border: 1px solid #21262d;
+          background: #0d1117;
+          color: inherit;
+          font-size: 1.25rem; }
+    .app .form button {
+      padding: 10px 9px;
+      width: 100%;
+      background: #238636;
+      border: 0;
+      border-radius: 12px;
+      color: #eee; }
+    .app .form p {
+      margin-top: 1rem; }

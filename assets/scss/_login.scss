@@ -1,3 +1,49 @@
 /*----------------------------------------------- 
   # Login page
 -------------------------------------------------*/
+.app {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  .form {
+    padding: 2rem;
+    background: #161b22;
+    border-radius: 10px;
+    width: 25%;
+    border: 1px solid #21262d;
+    h3 {
+      text-align: center;
+    }
+    .form-controls {
+      margin: 2rem 0;
+      .form-control-item {
+        margin: 1rem 0;
+        label {
+          display: block;
+          margin-bottom: 1rem;
+        }
+        input {
+          padding: 11px 28px;
+          width: 100%;
+          border-radius: 10px;
+          border: 1px solid #21262d;
+          background: #0d1117;
+          color: inherit;
+          font-size: 1.25rem;
+        }
+      }
+    }
+    button {
+      padding: 10px 9px;
+      width: 100%;
+      background: #238636;
+      border: 0;
+      border-radius: 12px;
+      color: #eee;
+    }
+    p {
+      margin-top: 1rem;
+    }
+  }
+}
